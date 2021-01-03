@@ -1,0 +1,72 @@
+.unAuthWrapper{
+  display: flex;
+  padding: 40px 0;
+  min-height: 100vh;
+  .formBox{
+    max-width: 95%;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    .lFormHead{
+      background: #0EC64E;
+      padding: 60px 100px;
+      text-align: center;
+      @media (max-width: 767px) {
+        padding: 40px 40px;
+      }
+      img{
+        width: 120px;
+      }
+    }
+
+    .lFormBody{
+      padding: 40px 80px;
+      @media (max-width: 767px) {
+        padding: 40px 15px;
+      }
+      .inputStyleBasic {
+        margin-top: 5px;
+        margin-bottom: 0;
+        padding-bottom: 22px;
+        input{
+          height: 55px;
+        }
+        p{
+          position: absolute;
+          bottom: 0;
+          margin: 0;
+          font-size: 12px;
+          line-height: 18px;
+          color: red !important;
+        }
+        .showPassword{
+          button{
+            padding: 0;
+            margin-right: 20px;
+            &:hover{
+              background: transparent;
+            }
+          }
+        }
+      }
+      >h4{
+        text-align: center;
+      }
+      >p{
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      h6{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        a{
+          color: #0EC64E;
+          font-size: 16px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
